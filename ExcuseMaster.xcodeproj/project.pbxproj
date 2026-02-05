@@ -15,11 +15,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A1B2C3D400000009 /* ExcuseMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExcuseMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B2C3D400000002 /* ExcuseMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcuseMasterApp.swift; sourceTree = "<group>"; };
 		A1B2C3D400000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1B2C3D400000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B2C3D400000008 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1B2C3D400000009 /* ExcuseMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExcuseMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B2C3D40000001A /* ExcuseGeneratorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcuseGeneratorService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -34,20 +34,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1B2C3D40000000B /* root */ = {
+		A1B2C3D40000000B = {
 			isa = PBXGroup;
 			children = (
 				A1B2C3D40000000C /* ExcuseMaster */,
 				A1B2C3D40000000D /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		A1B2C3D40000000D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A1B2C3D400000009 /* ExcuseMaster.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		A1B2C3D40000000C /* ExcuseMaster */ = {
@@ -60,6 +52,14 @@
 				A1B2C3D40000000E /* Preview Content */,
 			);
 			path = ExcuseMaster;
+			sourceTree = "<group>";
+		};
+		A1B2C3D40000000D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D400000009 /* ExcuseMaster.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A1B2C3D40000000E /* Preview Content */ = {
@@ -113,7 +113,7 @@
 				en,
 				Base,
 			);
-			mainGroup = A1B2C3D40000000B /* root */;
+			mainGroup = A1B2C3D40000000B;
 			productRefGroup = A1B2C3D40000000D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -276,6 +276,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				DEVELOPMENT_TEAM = 3DLV25C9VK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				DEVELOPMENT_TEAM = 3DLV25C9VK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -327,20 +329,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1B2C3D400000014 /* Build configuration list for PBXProject "ExcuseMaster" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A1B2C3D400000015 /* Debug */,
-				A1B2C3D400000016 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A1B2C3D400000010 /* Build configuration list for PBXNativeTarget "ExcuseMaster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1B2C3D400000017 /* Debug */,
 				A1B2C3D400000018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B2C3D400000014 /* Build configuration list for PBXProject "ExcuseMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D400000015 /* Debug */,
+				A1B2C3D400000016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
